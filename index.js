@@ -6,6 +6,7 @@ module.exports = {
   plugins: [
     'transform-class-properties',
     ['transform-builtin-extend', { globals: ['Error'] }],
-    'transform-runtime',
+    'transform-object-rest-spread',
+    'transform-runtime'
   ]
 };
